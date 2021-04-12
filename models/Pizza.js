@@ -1,5 +1,4 @@
 const { Schema, model } = require('mongoose');
-const { StringDecoder } = require('node:string_decoder');
 
 const PizzaSchema = new Schema({
     pizzaName: {
